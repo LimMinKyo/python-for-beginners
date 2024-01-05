@@ -1,6 +1,5 @@
-name = "ian"
-age = 26
-isMan = True
+def say_hello():
+    print("Hello, How are you?")
 
-print("Hello my name is", name)
-print("and I'm", age, "years old")
+
+say_hello()
