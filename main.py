@@ -1,5 +1,4 @@
-a = 2
-b = 3
-c = a + b
+name = "ian"
+isMan = True
 
-print(c)
+print(name, isMan)
