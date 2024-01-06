@@ -1,8 +1,6 @@
-def say_hello(user_name):
-    print("Hello", user_name, "How are you?")
+def say_hello(user_name, user_age):
+    print("Hello", user_name)
+    print("You are", user_age, "years old.")
 
 
-say_hello("Ian")
-say_hello("Jake")
-say_hello("Lucy")
-say_hello("Chad")
+say_hello("Ian", 26)
