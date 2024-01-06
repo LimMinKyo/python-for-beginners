@@ -1,6 +1,5 @@
-def say_hello(user_name, user_age):
-    print("Hello", user_name)
-    print("You are", user_age, "years old.")
+def tax_calculator(money):
+    print(money * 0.35)
 
 
-say_hello("Ian", 26)
+tax_calculator(150)
