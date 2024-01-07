@@ -1,10 +1,16 @@
-def tax_calculator(money):
-    return money * 0.35
+def make_juice(fruit):
+    return f"{fruit}+🥤"
 
 
-def pay_tax(tax):
-    print("Thank you for paying", tax)
+def add_ice(juice):
+    return f"{juice}+🧊"
 
 
-to_pay = tax_calculator(150)
-pay_tax(to_pay)
+def add_sugar(cold_juice):
+    return f"{cold_juice}+🍬"
+
+
+juice = make_juice("🍎")
+cold_juice = add_ice(juice)
+perfect_juice = add_sugar(cold_juice)
+print(perfect_juice)
