@@ -1,8 +1,10 @@
-winner = 10
+winner = 500
 
-if winner > 10:
-    print("Winner is greater than 10.")
-elif winner < 10:
-    print("Winner is less than 10.")
+if winner <= 10:
+    print("if")
+elif winner <= 25:
+    print("elif")
+elif winner >= 500:
+    print("elif2")
 else:
-    print("Winner is 10.")
+    print("else")
