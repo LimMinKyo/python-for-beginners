@@ -1,19 +1,24 @@
-"""
 from random import randint
 
-user_choice = int(input("Choose number.\n"))
-pc_choice = randint(1, 50)
+print("Welcome to Python Casiono.")
+pc_choice = randint(1, 100)
 
-if user_choice == pc_choice:
-    print("You won!")
-elif user_choice > pc_choice:
-    print("Lower! Computer chose", pc_choice)
-elif user_choice < pc_choice:
-    print("Higher! Computer chose", pc_choice)
-"""
+playing = True
 
-distance = 0
+while playing:
+    user_choice = int(input("Choose number (1-100):\n"))
 
-while distance < 20:
-    distance += 1
-    print("I'm running:", distance, "km")
+    if user_choice == pc_choice:
+        print("You won!")
+        playing = False
+    elif user_choice > pc_choice:
+        print("Lower!")
+    elif user_choice < pc_choice:
+        print("Higher!")
+
+# if user_choice == pc_choice:
+#     print("You won!")
+# elif user_choice > pc_choice:
+#     print("Lower!")
+# elif user_choice < pc_choice:
+#     print("Higher!")
