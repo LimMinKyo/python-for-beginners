@@ -15,10 +15,3 @@ while playing:
         print("Lower!")
     elif user_choice < pc_choice:
         print("Higher!")
-
-# if user_choice == pc_choice:
-#     print("You won!")
-# elif user_choice > pc_choice:
-#     print("Lower!")
-# elif user_choice < pc_choice:
-#     print("Higher!")
