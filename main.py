@@ -1,17 +1,9 @@
-from random import randint
+"""
+days_of_week = ["Mon", "Tue", "Wed", "Thu", "Fri"]
 
-print("Welcome to Python Casiono.")
-pc_choice = randint(1, 100)
+print(days_of_week)
+"""
 
-playing = True
+name = "ian"
 
-while playing:
-    user_choice = int(input("Choose number (1-100):\n"))
-
-    if user_choice == pc_choice:
-        print("You won!")
-        playing = False
-    elif user_choice > pc_choice:
-        print("Lower!")
-    elif user_choice < pc_choice:
-        print("Higher!")
+print(name.upper())
