@@ -1,4 +1,9 @@
-days_of_week = ("Mon", "Tue", "Wed", "Thu", "Fri")
+player = {"name": "ian", "age": 26, "alive": True, "fav_food": ["🍔", "🍕"]}
 
-print(days_of_week[0])
-print(days_of_week[-1])
+player["xp"] = 1500
+player["fav_food"].append("🍜")
+
+print(player.get("age"))
+print(player["fav_food"])
+
+print(player)
