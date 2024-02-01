@@ -1,9 +1,10 @@
-player = {"name": "ian", "age": 26, "alive": True, "fav_food": ["🍔", "🍕"]}
+websites = (
+    "google.com",
+    "airbnb.com",
+    "twitter.com",
+    "facebook.com",
+    "tiktok.com",
+)
 
-player["xp"] = 1500
-player["fav_food"].append("🍜")
-
-print(player.get("age"))
-print(player["fav_food"])
-
-print(player)
+for website in websites:
+    print(website)
